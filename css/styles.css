@@ -98,27 +98,25 @@ color: var(--navy-blue);
 	color: #404BBF;
 }
 
-.Contacts {
-	font-style: normal;
-}
 
 
-.contacts-tel-mail {
+.contacts-tel-mail li a{
 	font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
+	font-style: normal;
 
 /* line-height: 24px; */ 
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--slate);
+color: #434455;
 }
 
-.contacts-tel-mail> li a:hover{
+.contacts-tel-mail :hover{
 	color: #404bbf
 }
 
-.contacts-tel-mail> li a:focus{
+.contacts-tel-mail:focus{
 	color: #404bbf
 }
 
@@ -188,7 +186,7 @@ letter-spacing: 0.02em;
 color: var(--slate);
 }
 
-.section2{
+.section3{
 	
 	background: var(--cloud);
 }
@@ -197,9 +195,13 @@ color: var(--slate);
 	font-family: var(--font-family);
 font-weight: 700;
 font-size: 36px;
+text-align: center;
+text-transform: capitalize;
 
 /* line-height: 40px; */ 
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
 color: var(--navy-blue);
 }
+
+t
