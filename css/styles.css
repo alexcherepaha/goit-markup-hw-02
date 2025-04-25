@@ -102,7 +102,8 @@ color: var(--navy-blue);
 	font-style: normal;
 }
 
-address ul li a{
+
+.mail-tel {
 	font-family: var(--font-family);
 font-weight: 400;
 font-size: 16px;
@@ -113,11 +114,11 @@ letter-spacing: 0.02em;
 color: var(--slate);
 }
 
-address ul li a:hover{
+.mail-tel:hover{
 	color: #404bbf
 }
 
-address ul li a:focus{
+.mail-tel:focus{
 	color: #404bbf
 }
 
