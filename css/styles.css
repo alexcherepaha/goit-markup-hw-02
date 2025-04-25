@@ -11,15 +11,15 @@
 	--grey: rgba(46, 47, 66, 0.7);
 	--white: #fff;
 	--dairy: #fcfcfc;
+	--font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
 }
 
-:root {
-    --font-family: "Roboto", sans-serif;
-    --second-family: "Raleway", sans-serif;
-  }
+
 
 body {
 	font-family: "Roboto", sans-serif;
+    second-family: "Raleway", sans-serif;
 	background: var(--white);	
 	color: #434455;
 }
@@ -30,6 +30,13 @@ body {
 }
 
 .logo{
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #4d5ae5;
 justify-content: flex-start;
 text-decoration: none;
 }
