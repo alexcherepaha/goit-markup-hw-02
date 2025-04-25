@@ -90,6 +90,14 @@ letter-spacing: 0.02em;
 color: var(--navy-blue);
 }
 
+.nav-link:hover {
+	color: #404bbf
+}
+
+.nav-link:focus {
+	color: #404BBF;
+}
+
 address ul li a{
 	font-family: var(--font-family);
 font-weight: 400;
