@@ -18,28 +18,19 @@
     --second-family: "Raleway", sans-serif;
   }
 
-body{
-	width: 1440px;
-	height: 3300px;
+body {
+	font-family: "Roboto", sans-serif;
 	background: var(--white);	
+	color: #434455;
 }
 
 .top-line{
-	border-bottom: 1px solid var(--cornflower);
 	background: var(--white);
-	width: 1440px;
-    height: 72px;
 	
 }
 
 .logo{
-	display: flex;
-align-items: center;
 justify-content: flex-start;
-flex-direction: row;
-gap: 0px;
-width: 115px;
-height: 24px;
 text-decoration: none;
 }
 
@@ -68,13 +59,8 @@ text-decoration: none;
 }
 
 .menu-nav{
-	display: flex;
-align-items: flex-start;
 justify-content: flex-start;
 flex-direction: row;
-gap: 40px;
-width: 261px;
-height: 24px;
 }
 
 .menu-nav> li a{
@@ -100,8 +86,6 @@ color: var(--slate);
 }
 
 .hero-image{
-	width: 1440px;
-    height: 600px;
     background: var(--navy-blue);
 }
 
@@ -118,16 +102,11 @@ color: var(--slate);
 }
 
 .knopka{
-	display: flex;
-	align-items: flex-start;
+
 	justify-content: flex-start;
 	flex-direction: row;
-	gap: 10px;
-	border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+	
+   
     background: var(--iris);
 	font-family: var(--font-family);
     font-weight: 500;
@@ -139,23 +118,13 @@ color: var(--slate);
     color: var(--white);
 }
 
-.section-1{
-	width: 1128px;
-    height: 104px;
-}
-
 
 
 .feature-1{
-	display: flex;
-    align-items: flex-start;
+
     justify-content: flex-start;
     flex-direction: column;
-    gap: 8px;
-    width: 264px;
-    height: 104px;
 }
-
 .feature-1 h3{
 	font-family: var(--font-family);
 font-weight: 500;
@@ -179,12 +148,11 @@ color: var(--slate);
 }
 
 .section2{
-	width: 1440px;
-	height: 732px;
+	
 	background: var(--cloud);
 }
 
-.team{
+.team {
 	font-family: var(--font-family);
 font-weight: 700;
 font-size: 36px;
@@ -195,4 +163,3 @@ letter-spacing: 0.02em;
 text-align: center;
 color: var(--navy-blue);
 }
-
