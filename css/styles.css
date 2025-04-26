@@ -88,17 +88,14 @@ letter-spacing: 0.02em;
 color: var(--navy-blue);
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus {
 	color: #404bbf
 }
 
-.nav-link:focus {
-	color: #404BBF;
-}
 
 
-
-.contacts-tel-mail> li a{
+.contact-link{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -115,13 +112,12 @@ color: var(--navy-blue);
 	
 }
 
-.contacts-tel-mail> li a{
+.contact-link:hover,
+.contact-link:focus{
 	color: #404bbf
 }
 
-.contacts-tel-mail> li a{
-	color: #404bbf
-}
+
 
 .hero-effective{
     background: var(--navy-blue);
