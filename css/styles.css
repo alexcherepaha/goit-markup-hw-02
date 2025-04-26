@@ -83,8 +83,6 @@ color: var(--navy-blue);
 	font-family: var(--font-family);
 font-weight: 500;
 font-size: 16px;
-
-/* line-height: 24px; */ 
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--navy-blue);
@@ -192,7 +190,7 @@ letter-spacing: 0.02em;
 color: var(--navy-blue);
 }
 
-.team-team li img {
+.team-card{
 	background-color: #ffffff;
 }
 
