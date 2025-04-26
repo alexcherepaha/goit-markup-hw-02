@@ -179,7 +179,7 @@ color: #2e2f42
 
 
 
-.section-3-team- {
+.section-3-team {
 	font-family: var(--font-family);
 font-weight: 700;
 font-size: 36px;
@@ -192,11 +192,11 @@ letter-spacing: 0.02em;
 color: var(--navy-blue);
 }
 
-.section-3-team- li {
+.team-team {
 	background-color: #ffffff;
 }
 
-.section-3-our-team {
+.section-3 {
 	background-color: #f4f4fd;
 
 }
