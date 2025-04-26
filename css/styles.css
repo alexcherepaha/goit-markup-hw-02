@@ -179,7 +179,7 @@ color: #2e2f42
 
 
 
-.section-3-team {
+.section--team {
 	font-family: var(--font-family);
 font-weight: 700;
 font-size: 36px;
@@ -196,12 +196,12 @@ color: var(--navy-blue);
 	background-color: #ffffff;
 }
 
-.section-3 {
+.-section- {
 	background-color: #f4f4fd;
 
 }
 
-.section-4-our{
+.section--our{
 	font-size: 36px;
 	line-height: 1.11;
     text-align: center;
@@ -226,7 +226,7 @@ color: var(--navy-blue);
 
 }
 
-.-footer-{
+.-foo-ter-{
 background-color: #2e2f42;
 }
 
