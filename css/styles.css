@@ -100,7 +100,7 @@ color: var(--navy-blue);
 
 
 
-.contacts-tel-mail li a{
+.contacts-tel-mail -mailtel-{
 	font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
@@ -116,11 +116,11 @@ color: #434455;
 	font-style: normal;
 }
 
-.contacts-tel-mail li a:hover{
+.contacts-tel-mail -mailtel-:hover{
 	color: #404bbf
 }
 
-.contacts-tel-mail li a:focus{
+.contacts-tel-mail -mailtel-:focus{
 	color: #404bbf
 }
 
