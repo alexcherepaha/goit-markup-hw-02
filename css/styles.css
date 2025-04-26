@@ -159,11 +159,6 @@ color: #434455;
 
 
 
-.feature-1{
-
-    justify-content: flex-start;
-    flex-direction: column;
-}
 .strengths{
 	font-family: var(--font-family);
 font-weight: 500;
@@ -184,7 +179,7 @@ color: #2e2f42
 
 
 
-.section-3-team {
+.section-3-team- {
 	font-family: var(--font-family);
 font-weight: 700;
 font-size: 36px;
@@ -197,11 +192,11 @@ letter-spacing: 0.02em;
 color: var(--navy-blue);
 }
 
-.section-3-team {
+.section-3-team- li {
 	background-color: #ffffff;
 }
 
-.section-3{
+.section-3-our-team {
 	background-color: #f4f4fd;
 
 }
