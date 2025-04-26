@@ -104,12 +104,16 @@ color: var(--navy-blue);
 	font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
-	font-style: normal;
+	
 
 /* line-height: 24px; */ 
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+}
+
+.tel-mail {
+	font-style: normal;
 }
 
 .contacts-tel-mail :hover{
@@ -120,7 +124,7 @@ color: #434455;
 	color: #404bbf
 }
 
-.hero-image{
+.hero-effective{
     background: var(--navy-blue);
 }
 
@@ -192,7 +196,7 @@ letter-spacing: 0.02em;
 color: var(--navy-blue);
 }
 
-.team-team {
+.team-team li img {
 	background-color: #ffffff;
 }
 
