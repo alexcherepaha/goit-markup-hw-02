@@ -197,8 +197,12 @@ letter-spacing: 0.02em;
 color: var(--navy-blue);
 }
 
-.designer-foto{
-	background-color: #FFFFFF;
+.section-3-team {
+	background-color: #ffffff;
+}
+
+.section-3{
+	background-color: #f4f4fd;
 
 }
 
