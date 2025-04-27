@@ -15,7 +15,12 @@
     --second-family: "Raleway", sans-serif;
 }
 
-
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
 
 body {
 	font-family: "Roboto", sans-serif;
