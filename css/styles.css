@@ -14,6 +14,18 @@
 	--font-family: "Roboto", sans-serif;
     --second-family: "Raleway", sans-serif;
 }
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+ul, ol {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+
 
 a {
 	text-decoration: none;
@@ -22,18 +34,35 @@ ul {
 	list-style: none;
 }
 
+img {
+	display: block;
+	max-width: 100%;
+}
+
+
 body {
 	font-family: "Roboto", sans-serif;
 	background: var(--white);	
 	color: #434455;
 }
 
+
+
 .top-line{
+	
 	background: var(--white);
 	
 }
 
+.nav-menu{
+	display: flex;
+	justify-content: flex-start;
+
+	gap: 20px;
+}
+
 .logo{
+	
 	font-family: "Raleway", sans-serif;
 	font-weight: 700;
 	font-size: 18px;
@@ -72,8 +101,8 @@ span {
 	color: #2e2f42;
 }
 
+.nav-manu> nav-link{
 
-.nav-manu> li a{
 	font-family: var(--font-family);
 font-weight: 500;
 font-size: 16px;
@@ -85,7 +114,9 @@ color: var(--navy-blue);
 }
 
 .nav-link {
+	
 	font-family: var(--font-family);
+	
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -99,8 +130,8 @@ color: var(--navy-blue);
 }
 
 
-
 .contact-link{
+	
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -113,8 +144,15 @@ color: var(--navy-blue);
 }
 
 .tel-mail {
-	font-style: normal;
 	
+	font-style: normal;
+
+}
+
+.contacts-tel-mail{
+	flex-direction: row-reverse;
+	display: flex;
+	gap: 50px;
 }
 
 .contact-link:hover,
@@ -141,7 +179,7 @@ color: var(--navy-blue);
 }
 
 .knopka{
-
+	
     background: var(--iris);
 	font-family: var(--font-family);
     font-weight: 500;
@@ -153,15 +191,19 @@ color: var(--navy-blue);
     color: var(--white);
 	cursor: pointer;
 }
-.knopka:hover {
+
+
+
+.knopka:hover .knopka:focus {
+	
 	background-color: #404BBF;
 }
 
-.knopka:focus {
-	background-color: #404BBF;
+.strengths-tytle{
+	text-align: center;
+	display: flex;
+	gap: 20px;
 }
-
-
 
 .strengths{
 	font-family: var(--font-family);
@@ -196,6 +238,13 @@ letter-spacing: 0.02em;
 color: var(--navy-blue);
 }
 
+.team-team{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
 .team-card{
 	background-color: #ffffff;
 }
@@ -222,6 +271,14 @@ color: var(--navy-blue);
     text-transform: capitalize;
     color: #2e2f42;
 }
+.portfolio{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
 
 .images-foto{
 	font-weight: 500;
